@@ -1,0 +1,210 @@
+@charset 'utf-8';
+@import "media.css";
+
+*{
+	/*outline: 1px solid black;*/
+}
+/*LOGO*/
+.kebabcidayi{
+	padding-left: 20px;
+	margin-top: 5px;
+	border-radius: 25px;
+	transition: .6s;
+}
+.kebabcidayi:hover{
+	background: rgba(255,200,0,0.2);
+	cursor: pointer;
+}
+
+.logo{
+	letter-spacing: 5px;
+	font-size: 30px;
+	font-weight: bolder;
+	background: linear-gradient(to right, orange 0%, red 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.logoimg{
+	width: 30px;
+	margin-bottom: 15px;
+	margin-right: 10px;
+
+}
+#hakkimizda{
+	color: #515769;
+}
+#hakkimizda:hover{
+	cursor: pointer;
+	color: grey;
+}
+/*LOGO*/
+/*ADMIN SECTION*/
+.adminLink{
+	letter-spacing: 5px;
+	font-weight: 900;
+	font-size: 25px;
+}
+.kebapEkle{
+	margin-top: 20px;
+	letter-spacing: 3px;
+	font-size: 17px;
+}
+.adminTitle{
+	letter-spacing: 5px;
+}
+.dataEntry{
+	border: 1px solid aquamarine;
+	border-radius: 5px;
+}
+.dataAdd{
+	margin-top: 20px;
+	width: 100%;
+}
+.adminForm{
+	margin-top: 40px;
+}
+.destroySession{
+	margin-bottom: 10px;
+}
+
+/*NavBar Link AREA*/
+.nav-item-child{
+	letter-spacing: 3px;
+	font-size: 15px!important;
+	
+}
+
+/*NavBar Link AREA*/
+/*LAYOUT AREA*/
+#materials{
+	letter-spacing: 3px;
+	font-weight: bold;
+	color: orangered;
+}
+#layoutMaterials{
+	width: 70%;
+	border: 1.5px solid orangered;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	text-align: left;
+	padding: 10px;
+	color: black;
+	letter-spacing: 2px;
+
+}
+#layoutList li{
+	list-style-type: none;
+	margin-top: 5px;
+}
+#layoutUsage, #layoutContent{
+	line-height: 2;
+	color: gray;
+}
+/*LAYOUTAREA*/
+/*SEARCH AREA */
+.searchArea{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	padding: 10px 10px 0 10px;
+	padding-bottom: 20px;
+	
+}
+.searchPlace{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.membersArea label{
+	padding-top: 10px;
+	margin-left: 10px;
+	cursor: pointer;
+	letter-spacing: 3px;
+}
+.membersArea label a{
+	color: gray!important;
+}
+/*MembersArea*/
+.membersArea{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+	cursor: pointer;
+	transition: .2s;
+	border: 3px solid white;
+	border-radius: 10px;
+
+}
+.membersArea:hover{
+	border: 3px solid red;
+	border-radius: 10px;
+}
+/*Members Icon*/
+.membersIcon{
+	font-size: 25px;
+	color: red;
+	cursor: pointer;
+}
+
+#searchBox{
+	width: 300px;
+	height: 33.5px;
+	border: 1px solid grey;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-right: 0;
+	color: grey;
+	text-align: center;
+	letter-spacing: 2px;
+}
+.searchBtn{
+	border-bottom-left-radius: 0px;
+	border-top-left-radius:0px;
+	letter-spacing: 2px;
+	transition: .3s;
+	background: red!important;
+}
+.searchBtn:hover{
+	color: orange;
+}
+.searchBtn:focus{
+	border: none;
+	outline: none;
+	height: 33.5px;
+}
+
+/*SEARCH AREA ENDING*/
+/*IMG*/
+.one{
+	max-height: 100%;
+	
+}
+/*IMG*/
+/*KebaplarPage*/
+.kebaplarHeader{
+	letter-spacing: 4px;
+	color: orangered;
+}
+.continue{
+	color: yellow;
+}
+/*KebaplarPage*/
+
+.postsend form{
+	display: flex;
+	justify-content: center;
+	align-items: left;
+	flex-direction: column;
+	
+}
+.postsend form label{
+	margin-top: 10px;
+}
+.ilet{
+	letter-spacing: 4px;
+	margin-top: 10px;
+}
